@@ -25,6 +25,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
+  这是合并分支
+<<<<<<< HEAD
   大家好!!!
+=======
+  大家好!!!这是分支1
+  这是修改分支1
+>>>>>>> refs/heads/branch
   </body>
 </html>
